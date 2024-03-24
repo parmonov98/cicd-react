@@ -1,5 +1,6 @@
 name: Testing project
-on: push
+on: 
+  branch:   
 jobs:
   setup:
     runs-on: ubuntu-latest
