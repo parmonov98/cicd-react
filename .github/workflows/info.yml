@@ -1,0 +1,8 @@
+name: Viewing information
+on: [push, workflow_dispatch]   
+jobs:
+  setup:
+    runs-on: ubuntu-latest
+    steps:
+      - name: print github
+        run: echo "${{ github }}"
